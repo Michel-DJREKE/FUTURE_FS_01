@@ -2,13 +2,23 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { ease } from "@/lib/animations";
 
+// 🔹 Import des images depuis src/assets
+import ecoleAvenir from "@/assets/ecole-avenir.png";
+import copa from "@/assets/copa.png";
+import serieHubi from "@/assets/seriehubi.png";
+import lucieUI from "@/assets/lucie-ui.png";
+import serieHub from "@/assets/serie-hub.png";
+import awoe from "@/assets/awoe.jpg";
+import assetTracker from "@/assets/asset-tracker.jpg";
+import plateformeServices from "@/assets/plateforme-services.png";
+
 const projects = [
   {
     title: "Ecole Avenir",
     description: "Plateforme éducative moderne avec gestion scolaire, inscriptions et suivi des élèves.",
     techs: ["React", "TypeScript", "Tailwind"],
     url: "https://ecole-avenir.vercel.app",
-    image: "/src/assets/ecole-avenir.png",
+    image: ecoleAvenir,
     featured: true,
   },
   {
@@ -16,7 +26,7 @@ const projects = [
     description: "Plateforme de concours entrepreneurial avec soumission et gestion des candidatures.",
     techs: ["React", "Vite", "Tailwind"],
     url: "https://copa-rho.vercel.app",
-    image: "/src/assets/copa.png",
+    image: copa,
     featured: true,
   },
   {
@@ -24,7 +34,7 @@ const projects = [
     description: "Plateforme de streaming avec catalogue, recherche et lecture de séries TV.",
     techs: ["React", "TypeScript", "API"],
     url: "https://seriehubi.vercel.app",
-    image: "/src/assets/seriehubi.png",
+    image: serieHubi,
     featured: true,
   },
   {
@@ -32,7 +42,7 @@ const projects = [
     description: "Bibliothèque de composants UI élégants, accessibles et prêts pour la production.",
     techs: ["React", "CSS", "Design System"],
     url: "https://lucie-ui.vercel.app",
-    image: "/src/assets/lucie-ui.png",
+    image: lucieUI,
     featured: true,
   },
   {
@@ -40,28 +50,28 @@ const projects = [
     description: "Hub de découverte de séries et films avec communauté de passionnés.",
     techs: ["React", "API", "Tailwind"],
     url: "https://serie-hub.vercel.app",
-    image: "/src/assets/serie-hub.png",
+    image: serieHub,
   },
   {
     title: "Awoé Immobilier",
     description: "Application complète de gestion immobilière avec catalogue et recherche.",
     techs: ["React", "TypeScript", "Tailwind"],
     url: "https://awoe-gestion-immobilier-ol8rufl9v-mich06413-gmailcoms-projects.vercel.app",
-    image: "/src/assets/awoe.jpg",
+    image: awoe,
   },
   {
     title: "AssetTracker",
     description: "SaaS de gestion d'équipements, suivi d'actifs et reporting.",
     techs: ["React", "TypeScript", "SaaS"],
     url: "https://asset-tracker-dgi5zahog-mich06413-gmailcoms-projects.vercel.app",
-    image: "/src/assets/asset-tracker.jpg",
+    image: assetTracker,
   },
   {
     title: "Plateforme Services",
     description: "Application SPA de services numériques avec interface moderne.",
     techs: ["React", "SPA", "Vite"],
     url: "https://task1-spa-myapp.vercel.app",
-    image: "/src/assets/plateforme-services.png",
+    image: plateformeServices,
   },
 ];
 
@@ -104,7 +114,6 @@ const ProjectsSection = () => {
               className="group block rounded-2xl overflow-hidden border border-border bg-card hover:shadow-xl hover:shadow-primary/5 transition-all duration-500"
               style={{ transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}
             >
-              {/* Image */}
               <div className="relative overflow-hidden aspect-[16/10] bg-muted">
                 <img
                   src={project.image}
@@ -116,7 +125,6 @@ const ProjectsSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
 
-              {/* Content */}
               <div className="p-6">
                 <div className="flex items-start justify-between mb-3">
                   <h3 className="text-lg font-semibold tracking-tight group-hover:text-primary transition-colors duration-300">
