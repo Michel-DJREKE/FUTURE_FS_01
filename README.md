@@ -7,7 +7,7 @@ Ce site est conçu pour démontrer mon expertise en **Frontend Development** et 
 
 ## 🔗 Liens importants
 
-- **Live Demo (site en ligne) :** [Voir le portfolio en direct](https://FUTURE_FS_01.vercel.app)  
+- **Live Demo (site en ligne) :** [Voir le portfolio en direct]([https://FUTURE_FS_01.vercel.app](https://future-fs-01-mu-snowy.vercel.app/)  
 - **Code source sur GitHub :** [Voir le dépôt GitHub](https://github.com/Michel-DJREKE/FUTURE_FS_01.git)
 
 ---
