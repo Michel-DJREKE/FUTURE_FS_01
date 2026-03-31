@@ -25,7 +25,7 @@ const projects = [
     title: "Copa – Plan d'Affaires",
     description: "Plateforme de concours entrepreneurial avec soumission et gestion des candidatures.",
     techs: ["React", "Vite", "Tailwind"],
-    url: "https://copa-rho.vercel.app",
+    url: "https://copa-burundi.vercel.app/",
     image: copa,
     featured: true,
   },
