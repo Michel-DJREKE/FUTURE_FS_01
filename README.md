@@ -41,7 +41,7 @@ Ce site est conçu pour démontrer mon expertise en **Frontend Development** et 
    🔗 [Live Demo](https://ecole-avenir.vercel.app)
 
 2. **Copa – Concours de plan d’affaires**  
-   🔗 [Live Demo](https://copa-rho.vercel.app)
+   🔗 [Live Demo](https://copa-burundi.vercel.app/)
 
 3. **SerieHubi – Plateforme de streaming**  
    🔗 [Live Demo](https://seriehubi.vercel.app)
